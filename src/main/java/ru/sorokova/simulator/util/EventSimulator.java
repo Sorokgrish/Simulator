@@ -120,7 +120,7 @@ public class EventSimulator {
         bear.setEnergy(energy);
         bear.setHealth(health);
         energyChecken(bear);
-        System.out.println("Ловись рыбка большая и маленькая! Энергия - 10! Текущая энергия: " + bear.getEnergy());
+        System.out.println("Ловись рыбка, большая и маленькая! Энергия - 10! Текущая энергия: " + bear.getEnergy());
         System.out.println("Текущее здоровье " + bear.getHealth());
     }
 
