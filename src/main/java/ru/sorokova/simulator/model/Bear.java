@@ -4,7 +4,7 @@ public class Bear {
 
     private int energy = 100;
     private int health = 100;
-    private double coeffRecovery = 1.5;
+    private double CoeffRecovery = 1.5;
 
     public void setEnergy(int energy) {
         this.energy = energy;
@@ -23,13 +23,7 @@ public class Bear {
     }
 
     public double getCoeffRecovery() {
-        if (energy > 100) {
-            return 100;
-        }
-        if (energy < 0) {
-            return 0;
-        }
-        return energy;
+          return this.CoeffRecovery;
     }
 }
 

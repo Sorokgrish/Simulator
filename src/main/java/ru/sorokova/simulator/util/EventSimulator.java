@@ -9,9 +9,9 @@ public class EventSimulator {
         System.out.println("Цикл жизни нашего медведя");
         while (statusChecker(bear)) {
             int eventNumber = (int) (Math.random() * 100);
-            if (eventNumber >= 0 && eventNumber < 10) {
+            if (eventNumber >= 0 && eventNumber < 15) {
                 sleepEvent(bear);
-            } else if (eventNumber >= 11 && eventNumber < 21) {
+            } else if (eventNumber >= 15 && eventNumber < 21) {
                 runningEvents(bear);
             } else if (eventNumber >= 21 && eventNumber < 25) {
                 eatsHare(bear);
