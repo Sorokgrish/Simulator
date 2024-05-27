@@ -1,9 +1,7 @@
 package ru.sorokova.simulator.model;
 
 public class Bear {
-    //100hp
-    //коэффициент зубов сколько энергии получает волк
-    // энергия 100
+
     private int energy = 100;
     private int health = 100;
     private double coeffRecovery = 1.5;
